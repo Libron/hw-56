@@ -1,4 +1,5 @@
 import React from 'react';
+import './ControlPanel.css';
 
 const ControlPanel = props => {
     return (
