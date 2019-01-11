@@ -1,0 +1,41 @@
+.Field .cell {
+    background-color: #006064;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #0097a7;
+    float: left;
+    color: #fff;
+    font-size: 9px;
+    font-style: italic;
+}
+.Field:hover {
+    cursor: pointer;
+}
+
+.Field .opened {
+    animation-name: dynamicColor;
+    animation-duration: 1s;
+    background-color: #fff;
+}
+
+@keyframes dynamicColor {
+    0%   {background-color: #006064;}
+    100% {background-color: #fff;}
+}
+
+
+.Field {
+    width: 302px;
+    margin: 0 auto;
+}
+
+.Field .clear {
+    clear: both;
+}
+
+.Field .target {
+    background-image: url("../../assets/target.png");
+    background-repeat: no-repeat;
+    background-position:  40% 50%;
+    background-size: 25px 27px;
+}

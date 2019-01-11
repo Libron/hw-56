@@ -1,0 +1,32 @@
+.ControlPanel {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.ControlPanel form{
+    display: inline-block;
+    margin: 5px 50px;
+}
+.ControlPanel form input {
+    margin-left: 10px;
+    padding: 0 5px;
+}
+
+.ControlPanel .counter {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.ControlPanel .log {
+    color: orangered;
+}
+.ControlPanel button {
+    padding: 2px 20px;
+    background-color: #bbdefb;
+    border: none;
+}
+
+.ControlPanel .cellNumbers {
+    margin-left: 15px;
+}
